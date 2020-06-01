@@ -1,1 +1,8 @@
+# compiled source #
+###################
 *.d
+*.o
+
+# obj folder #
+##############
+obj/
