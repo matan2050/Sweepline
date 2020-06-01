@@ -21,6 +21,7 @@ class Segment2f
     Segment2f(const Segment2f& copied);    
 
     Point2f Intersect(const Segment2f& other);
+    bool IsPointInSegmentBoundingBox(const Point2f point);
 };
 
 #endif

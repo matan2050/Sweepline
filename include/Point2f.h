@@ -12,8 +12,8 @@ class Point2f
     Point2f(float _x, float _y);
     Point2f(const Point2f& other);
     
-    float GetX() {return x;}
-    float GetY() {return y;}
+    float GetX() const {return x;}
+    float GetY() const {return y;}
 };
 
 #endif
