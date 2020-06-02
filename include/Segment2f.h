@@ -20,8 +20,8 @@ class Segment2f
     Segment2f(float a, float b, float c, float x_start, float y_start, float x_end, float y_end);
     Segment2f(const Segment2f& copied);    
 
-    Point2f Intersect(const Segment2f& other);
-    bool IsPointInSegmentBoundingBox(const Point2f point);
+    Point2f Intersect(const Segment2f& other) const;
+    bool IsPointInSegmentBoundingBox(const Point2f& point) const;
 };
 
 #endif
