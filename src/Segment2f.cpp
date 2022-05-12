@@ -66,10 +66,10 @@ Point2f Segment2f::Intersect(const Segment2f& other) const
 
 bool Segment2f::IsPointInSegmentBoundingBox(const Point2f& point) const
 {
-    if (point.GetX() >= start.GetX() && 
-        point.GetX() <= end.GetX() &&
-        point.GetY() >= start.GetY() &&
-        point.GetY() <= end.GetY())
+    if (point.x >= start.x && 
+        point.x <= end.x &&
+        point.y >= start.y &&
+        point.y <= end.y)
         {
             return true;
         }

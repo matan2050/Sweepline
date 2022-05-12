@@ -1,9 +1,8 @@
-#ifndef _POINT2F_H_
-#define _POINT2F_H_
+#ifndef POINT2F_H
+#define POINT2F_H
 
-class Point2f
+struct Point2f
 {
-    private:
     float x;
     float y;
 
@@ -11,9 +10,6 @@ class Point2f
     Point2f() {}
     Point2f(float _x, float _y);
     Point2f(const Point2f& other);
-    
-    float GetX() const {return x;}
-    float GetY() const {return y;}
 };
 
 #endif

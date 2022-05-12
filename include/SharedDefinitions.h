@@ -1,5 +1,5 @@
-#ifndef _SHARED_DEFINITIONS_H_
-#define _SHARED_DEFINITIONS_H_
+#ifndef SHARED_DEFINITIONS_H
+#define SHARED_DEFINITIONS_H
 
 constexpr float EPSILON = 1e-8;
 
